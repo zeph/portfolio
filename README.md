@@ -30,3 +30,46 @@ in less than 6 hours I had a unit test and a proposal of a patch.
 
 https://github.com/traefik/traefik/pull/7875/files
 
+QR Disaster Recovery
+====================
+https://github.com/zeph/qr_encode_disaster_recovery
+A tool for printing SSL keys on QR Codes, and related 
+reconstruction process through some OpenCV
+
+WMI Exporter
+============
+https://github.com/zeph/wmi_exporter
+Golang based tool for instrumenting with prometheus Windows machines.
+I needed to know the amount of file descriptors open over time
+ on a Windows Logon AD infrastructure, to be able to identify an 
+infrastructure bottleneck. (I patched and compiled the tool)
+
+local loadbalancing
+===================
+https://github.com/zeph/flask-session.nginx-reverseproxy.redis
+Several scenario of loadtesting and loadbalancing achieved via docker-compose
+
+GOAD (Apache Benchmark on steroids)
+===================================
+https://github.com/zeph/goad I was initially extending the tool, 
+I became later on (with sponsorship from my employer) the PM/PO
+of the solution. 
+
+Yahoo Kafka Manager
+===================
+Was a scala project, back in 2015 that used JMX to handle Kafka.
+I simply provided a mechanism for having user/pass authentication on JMX
+
+GNU+TLA 
+=======
+The git of the poors, back in 2006
+http://savannah.gnu.org/bugs/?15507
+
+mentioned "Guido Serra":
+ - https://cloudera.github.io/hue/docs-4.1.0/release-notes/release-notes-4.1.0
+ - (for my contributions to Istio, Diaspora & ArgoCD) https://archiveprogram.github.com/
+ 
+bugs:
+ - https://jira.mariadb.org/browse/MDEV-4592
+ - https://www.mail-archive.com/dev@hbase.apache.org/msg14243.html
+
